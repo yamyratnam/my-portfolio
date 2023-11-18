@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import ecommerce from "@/public/ecommerce.png";
+import recipeapp from "@/public/recipe-app.png";
+import fightinggame from "@/public/fighting-game.png";
 
 export const links = [
   {
@@ -31,25 +31,25 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Ecommerce Admin Dashboard & Store",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "An Admin Dashboard that can create multiple stores and manage their products and view store revenue.",
+    tags: ["Next.js", "MySQL", "Tailwind", "Prisma"],
+    imageUrl: ecommerce,
   },
   {
-    title: "rmtDev",
+    title: "Recipe App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "App to create and view recipes.",
+    tags: ["React", "MongoDB", "Node.js", "Express"],
+    imageUrl: recipeapp,
   },
   {
-    title: "Word Analytics",
+    title: "Fighting Game",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A simple Javascript fighting game using sprites.",
+    tags: ["Javascript"],
+    imageUrl: fightinggame,
   },
 ] as const;
 
